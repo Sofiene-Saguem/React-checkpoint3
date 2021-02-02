@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+.image {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 90px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.name {
+  border-bottom: 1px solid #5e5e5e;
+  width: 8rem;
+  text-transform: capitalize;
+  color: #00ffff;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 3px;
 }
 
-.App-link {
-  color: #61dafb;
+.Position-item {
+  flex-wrap: wrap;
+  display: flex;
+}
+.container {
+  border: 2px solid #000fff;
+  width: 60%;
+  text-align: center;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.background-go {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.3)),
+    url("./image/go\ logo.jpg") center/cover no-repeat;
 }
